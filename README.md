@@ -1,5 +1,7 @@
 # first-pr-mcp
 
+**Live endpoint:** `https://first-pr-mcp.priyanshu-mail.workers.dev/mcp` (Cloudflare Workers, Streamable HTTP). Add it to any MCP client and try it.
+
 An MCP server for the part of open source a first-timer gets stuck on: which issue is actually free, whether anyone is still merging, and what to type next.
 
 Built with the [mcp-use](https://github.com/mcp-use/mcp-use) server SDK. It calls the public GitHub REST API. No key and no paid service.
