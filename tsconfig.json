@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2024"],
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["index.ts", "worker.ts", "src/**/*", "test/**/*", "mcp-env.d.ts"],
+  "exclude": ["node_modules", "dist", ".mcp-use"]
+}

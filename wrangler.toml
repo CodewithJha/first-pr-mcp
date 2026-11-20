@@ -1,0 +1,8 @@
+name = "first-pr-mcp"
+main = "worker.ts"
+compatibility_date = "2026-11-20"
+compatibility_flags = ["nodejs_compat"]
+
+# Optional. Unauthenticated GitHub allows 60 requests/hour.
+# Do not put a token in this file:
+#   npx wrangler secret put GITHUB_TOKEN

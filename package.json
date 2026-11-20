@@ -1,0 +1,40 @@
+{
+  "name": "first-pr-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that helps an agent turn someone into a first-time open source contributor.",
+  "type": "module",
+  "author": "Priyanshu Jha (https://github.com/CodewithJha)",
+  "license": "MIT",
+  "homepage": "https://github.com/CodewithJha/first-pr-mcp",
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "mcp-use",
+    "open-source",
+    "good-first-issue"
+  ],
+  "scripts": {
+    "dev": "mcp-use dev",
+    "build": "mcp-use build",
+    "start": "mcp-use start",
+    "typecheck": "mcp-use typecheck",
+    "test": "node --experimental-strip-types --test test/logic.test.ts",
+    "deploy": "wrangler deploy",
+    "deploy:manufact": "mcp-use deploy"
+  },
+  "dependencies": {
+    "mcp-use": "^2.12.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@mcp-use/client": "^2.4.6",
+    "@types/node": "^22.19.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.165.0"
+  }
+}

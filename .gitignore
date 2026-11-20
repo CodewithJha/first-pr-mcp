@@ -1,0 +1,13 @@
+node_modules/
+.pnpm-store/
+dist/
+.mcp-use/
+.wrangler/
+.manufact/
+*.tsbuildinfo
+coverage/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
